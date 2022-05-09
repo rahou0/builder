@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mug
+* source:	https://sketchfab.com/3d-models/mug-a4ee737ee55c41d0ae41d589ff6c7423
+* author:	RetiortUK (https://sketchfab.com/RetiortUK)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mug" (https://sketchfab.com/3d-models/mug-a4ee737ee55c41d0ae41d589ff6c7423) by RetiortUK (https://sketchfab.com/RetiortUK) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

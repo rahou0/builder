@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <script
+      type="module"
+      src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"
+    ></script>
+    <title>My first three.js app</title>
+  </head>
+  <style>
+    button {
+      width: 200px;
+    }
+    #mainer {
+      display: flex;
+      /* flex-direction: column; */
+    }
+    #buttonContainer {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      height: 550px;
+    }
+  </style>
+  <body>
+    <div id="container">
+      <span>The</span>
+      <input list="object" id="obj1" />
+      <!-- onchange="myFunction(this.value)" /> -->
+      <datalist id="object">
+        <option value="bird"></option>
+        <option value="chair"></option>
+        <option value="coca"></option>
+        <option value="coffee_mug"></option>
+        <option value="dog"></option>
+        <option value="dog_house"></option>
+        <option value="mug"></option>
+        <option value="rounded_table"></option>
+        <option value="xbot"></option>
+      </datalist>
+      <span id="after_action">is </span>
+      <input list="action" id="animation" />
+      <datalist id="action">
+        <option value="walking"></option>
+        <option value="jumping"></option>
+        <option value="dancing"></option>
+        <option value="running"></option>
+        <option value="score"></option>
+        <!-- <option value="standing"></option> -->
+        <!-- <option value="opening"></option> -->
+        <option value="sitting"></option>
+      </datalist>
+      <input list="position" id="spatial_relation" />
+      <datalist id="position">
+        <option value="in the left"></option>
+        <option value="on top"></option>
+        <option value="in the right"></option>
+        <option value="in front"></option>
+        <option value="below"></option>
+        <option value="behind"></option>
+        <option value="in the center"></option>
+        <option value="in the right upper corner"></option>
+        <option value="in the left upper corner"></option>
+        <option value="in the right bottom corner"></option>
+        <option value="in the left bottom corner"></option>
+      </datalist>
+      <span>Of The</span>
+      <input list="object" id="obj2" />
+      <span>.</span>
+      <button id="update">generate</button>
+    </div>
+    <br />
+    <div class="mainer" id="mainer">
+      <canvas class="scene"></canvas>
+    </div>
+    <script type="module" src="./js/threejs.js"></script>
+    <script type="module" src="./js/config.js"></script>
+    <script type="module" src="./js/db.js"></script>
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/arrangmentController.js"></script>
+    <script type="module" src="./js/spatialControl.js"></script>
+    <script type="module">
+      import { animate, generate } from "./js/index.js";
+      document.querySelector("#update").addEventListener("click", generate);
+
+      animate();
+    </script>
+  </body>
+</html>

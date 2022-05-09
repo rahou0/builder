@@ -1,0 +1,11 @@
+Model Information:
+* title:	[CC0] Bird Cage
+* source:	https://sketchfab.com/3d-models/cc0-bird-cage-609200b0c7af4f40815ea1cefe6f7e0a
+* author:	adadadad5252341 (https://sketchfab.com/adadadad5252341)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "[CC0] Bird Cage" (https://sketchfab.com/3d-models/cc0-bird-cage-609200b0c7af4f40815ea1cefe6f7e0a) by adadadad5252341 (https://sketchfab.com/adadadad5252341) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
