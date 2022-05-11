@@ -26,13 +26,20 @@ const models = {
     url: "./models/rounded_table/scene.gltf",
     scale: 0.3,
   },
+  table: {
+    type: "gltf",
+    url: "./models/rounded_table/scene.gltf",
+    scale: 0.3,
+  },
   tv: { type: "gltf", url: "./models/tv/scene.gltf", scale: 0.003 },
   wooden_table: {
     type: "gltf",
     url: "./models/wooden_table/scene.gltf",
     scale: 0.6,
   },
+  ball: { type: "gltf", url: "./models/ball/scene.gltf", scale: 0.06 },
   xbot: { type: "fbx", url: "./models/Xbot/xbot2.fbx", scale: 0.01 },
+  kid: { type: "fbx", url: "./models/kid/kid.fbx", scale: 0.01 },
 };
 const animations = {
   dancing: { url: "./animation/Dancing.fbx", type: "fbx" },
@@ -44,6 +51,8 @@ const animations = {
   walking: { url: "./animation/walking.fbx", type: "fbx" },
   running: { url: "./animation/Running.fbx", type: "fbx" },
   score: { url: "./animation/Score.fbx", type: "fbx" },
+  T: { url: "./animation/T.fbx", type: "fbx" },
+  Open: { url: "./animation/Open.fbx", type: "fbx" },
 };
 
 export { models, animations };
